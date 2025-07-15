@@ -19,27 +19,3 @@ Spring Data JPA
 H2 Database (or another RDBMS)
 
 Maven
-
-🚀 How to Run
-Clone the repository:
-
-bash
-Copiar
-Editar
-git clone https://github.com/Elsonc1/atleta.git
-Navigate to the project directory and run:
-
-bash
-Copiar
-Editar
-mvn spring-boot:run
-Or import the project into your preferred IDE (IntelliJ, STS, Eclipse) and run it.
-
-Use tools like Postman or curl to interact with the API endpoints.
-
-📝 Notes
-Great for beginners learning Spring Boot project structure.
-
-Easy to understand and expand.
-
-Clean separation of layers: controller, service, repository, and model.
