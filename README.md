@@ -1,21 +1,45 @@
-É uma aplicação web desenvolvida em Java com Spring Boot, criada para realizar operações básicas de cadastro (CRUD) de atletas. O projeto tem como objetivo servir de exemplo ou base para aplicações RESTful, demonstrando boas práticas de organização de código, uso de JPA para persistência de dados e integração com bancos de dados relacionais.
+Atleta is a simple web application built with Java and Spring Boot designed to perform basic CRUD operations (Create, Read, Update, Delete) for athlete records. This project serves as a practical example of how to build a RESTful API using Spring Boot and JPA for persistence.
 
-Funcionalidades
-✅ Cadastrar Atleta – permite inserir novos registros de atletas com dados como nome, idade, altura, peso, etc.
+✅ Features
+Create Athlete – Add a new athlete with fields like name, age, height, weight, etc.
 
-✅ Consultar Atletas – lista todos os atletas cadastrados no sistema.
+List Athletes – Retrieve a list of all registered athletes.
 
-✅ Atualizar Dados – possibilita alterar as informações de um atleta existente.
+Update Athlete – Modify existing athlete information.
 
-✅ Excluir Atleta – remove um atleta do banco de dados.
+Delete Athlete – Remove an athlete from the database.
 
-Tecnologias Utilizadas
-Java 17 (ou versão usada no projeto)
+🛠️ Technologies Used
+Java 17 (or your preferred version)
 
 Spring Boot
 
 Spring Data JPA
 
-Banco de Dados H2 (pode ser outro caso você tenha alterado)
+H2 Database (or another RDBMS)
 
-Maven para gerenciamento de dependências
+Maven
+
+🚀 How to Run
+Clone the repository:
+
+bash
+Copiar
+Editar
+git clone https://github.com/Elsonc1/atleta.git
+Navigate to the project directory and run:
+
+bash
+Copiar
+Editar
+mvn spring-boot:run
+Or import the project into your preferred IDE (IntelliJ, STS, Eclipse) and run it.
+
+Use tools like Postman or curl to interact with the API endpoints.
+
+📝 Notes
+Great for beginners learning Spring Boot project structure.
+
+Easy to understand and expand.
+
+Clean separation of layers: controller, service, repository, and model.
